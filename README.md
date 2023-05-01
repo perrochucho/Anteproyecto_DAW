@@ -1,15 +1,16 @@
-# Anteproyecto_DAW
+01/05/2023
 
-Título: Bookline
-Autor: Luis Eladio Sánchez Galván
+V0.1
 
-Introducción: Mi intención es crear una página web en la que los usuarios puedan registrarse, subir archivos de e-books y leerlos en línea, así
-como almacenarlos en una base de datos, para poder acceder a ellos en cualquier dispositivo.
-
-Finalidad: Puede servir para facilitar la lectura de libros electrónicos por parte del usuario. Leyendo e-books por mi cuenta, me he topado con un problema, a veces leía en teléfono móvil y otras veces en ordenador, y para tener el mismo libro y guardar la misma página en ambos dispositivos, tenía que complicarme bastante. La finalidad de este proyecto es proporcionar facilidades al usuario que quiera leer en varios lugares.
-
-Objetivos: Mi objetivo es que sea capaz de: Permitir registro del usuario en la página web, subir cualquier tipo de archivo que pueda ser considerado e-book (.epub, .pdf...) y almacenarlo en la cuenta, recordar la página por la que el usuario ha dejado cada libro, modo para invitados (poder usar el lector de e-books sin necesidad de registrarse) para poder probar la página de forma rápida y saber si le gusta.
-
-Medios hardware y software a utilizar: Necesitaré usar React, CSS, Bibi (una herramienta que permite añadir un lector de e-books a tu página web) y para la base de datos tengo pensado utilizar MongoDB.
-
-Planificación: Primero, haré la estructura de la página con React y el estilo con CSS, cuando se vea aceptable, intentaré insertar Bibi para la funcionalidad del lector de e-books y, para finalizar, desarrollaré la capacidad de registrarse y almacenar todo lo necesario en la base de datos.
+    -Se han creado las vistas principales de la aplicación.
+    -Se ha implementado la autenticación de usuarios con Django.
+    -Se ha configurado la página de perfil del usuario.
+    -Se ha establecido una redirección después del inicio de sesión.
+    -Se ha actualizado el archivo README.md con la documentación del proyecto.
+    -Se ha creado un modelo para la base de datos.
+    -Se han agregado campos al modelo.
+    -Se han creado migraciones para actualizar la base de datos.
+    -Se han aplicado las migraciones para reflejar los cambios en la base de datos.
+    -Se ha actualizado el archivo settings.py con la información de la base de datos.
+    -Se ha actualizado el archivo urls.py con las rutas de la aplicación.
+    -Se ha creado una plantilla base para la aplicación, el inicio de sesión y la página de perfil del usuario    
