@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  {% if ebooks %}
+    <h1>Tus libros</h1>
+    <ul>
+      {% for ebook in ebooks %}
+        <li>{{ ebook.title }}</li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <h1>No tienes libros aún</h1>
+  {% endif %}
+{% endblock %}
