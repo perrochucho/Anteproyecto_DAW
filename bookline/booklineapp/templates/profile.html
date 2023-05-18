@@ -1,0 +1,18 @@
+{% block content %}
+    <h2>Perfil</h2>
+    <p>Usuario: {{ request.user.username }}</p>
+    
+    <h3>Archivos subidos</h3>
+    {% if form.instance.uploaded_file %}
+        <p>Archivo subido: {{ form.instance.uploaded_file.name }}</p>        
+    {% else %}
+        <p>No se ha subido ningún archivo.</p>
+    {% endif %}
+    
+    <h3>Cargar archivo</h3>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit">Cargar</button>
+    </form>
+{% endblock %}
